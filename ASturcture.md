@@ -4,10 +4,12 @@ More details on our project on  [Github](https://github.com/blhair/CUMCM)
 >注：论文主体**不可超25页**
 ************
 ## 0.摘要（最后写）
-一句话概括文章优化方法（可不要）
+>一句话概括文章优化方法（可不要）
 - *针对问题一*
 - *针对问题二*
 - *针对问题三*
+
+**关键字**：xxx，xxx...
 ******************
 
 ## 1.问题重述
@@ -69,3 +71,4 @@ More details on our project on  [Github](https://github.com/blhair/CUMCM)
 ### 9.2 文件
 
 9.1中的文件
+
