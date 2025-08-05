@@ -32,7 +32,7 @@ More details on our project on  [Github](https://github.com/blhair/CUMCM)
 
 >注意：符号说明中，符号、含义、单位必须一一对应。最好按照符号在论文中的出现顺序来对符号表格进行排序。
 ************
-## 4.问题分析（可与5.模型建立和6.模型求解合并撰写）
+## 4.问题分析（可与5.模型建立、求解、结果合并撰写）
 ### 4.1 *问题一*
 ### 4.2 *问题二*
 ### 4.3 *问题三*
@@ -67,4 +67,5 @@ More details on our project on  [Github](https://github.com/blhair/CUMCM)
 4.绘图源码
 ...
 ### 9.2 文件
+
 9.1中的文件
