@@ -1,0 +1,110 @@
+\documentclass{ctexart}
+\usepackage[UTF8]{ctex}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{amsmath}
+\usepackage{hyperref}
+%注释
+
+\title{example}
+\author{terry huang}
+\date{July 2025}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\newpage
+\section{Section 1}
+itemize.
+\subsection{subsection 1.1}
+This is itemize example.
+if 列举的项中有编码， use enumerate to replace itemize.
+\begin{itemize}
+    \item Item 1.
+    \item Item 1. 
+    \item Item 2.
+    \item \ldots 
+    \item Item n. 
+\end{itemize}
+
+\section{Section 2 : table}
+This is Section 2.
+Here is a table.
+\begin{table}
+    \caption{The number of Iterations}
+    \centering
+
+    \begin{tabular}{c|c}
+    \hline
+    iter1 & iter2\\
+    \hline
+    31 & 25 \\
+    20 & 17 \\
+    45 & 37 \\
+    \hline
+    \end{tabular}
+    \label{tab:my_label}
+\end{table}
+
+
+
+\section{Section 3 : math}
+No numbered section 3.
+符号和公式.
+\subsection{subsection 3.1}
+同一行的公式：$\sum_{i=0}^{10}i$\\
+另起一行的公式：$$\sum_{i=0}^{10}i$$
+
+This is a numbered equation:
+\begin{equation}
+\sum_{i=0}^{10} i = 0 + 1 + 2 + \ldots + 10
+\end{equation}
+This is an unnumbered equation:
+\begin{equation*}
+\prod_{i=1}^5 i = 1 \times 2 \times 3 \times 4 \times 5
+\end{equation*}
+This is a multi-line aligned equation:
+\begin{align}
+\sum_{i=0}^{10} i &= 0 + 1 + 2 + \ldots + 10 \\
+\prod_{i=1}^5 i &= 1 \times 2 \times 3 \times 4 \times 5 
+\end{align}
+This is a display formula:
+\[
+\int_{x=1}^{10}\frac{1}{x^2} 
+\]
+\[
+\frac{d}{dy} y^2
+\]
+\[
+\lim_{n\to \infty} \frac{1}{n}
+10 \equiv 1 \text{ (mod 3)}
+\sqrt{\frac{a}{b+c}}(b+a)
+\]
+
+
+\subsection{subsection 3.2}
+Some names:$\alpha \beta \gamma \sigma \epsilon \Sigma \Gamma$
+
+$\neq \geq \leq \approx \equiv \int \forall \exists \partial \mathcal \sim 4^{12} 4^12 C_{60}^{3} \frac{1}{2}$
+
+\subsection{subsection 3.3}
+matrix
+$$
+\begin{bmatrix}
+0 & 0 & 1 \\ 
+1 & 0 & 0 \\ 
+\end{bmatrix}
+\begin{pmatrix}
+1 & 4 & 0 \\ 
+2 & 5 & 8 \\
+\end{pmatrix}
+\begin{vmatrix}
+1 & 4 & 0 \\ 
+2 & 5 & 8 \\
+\end{vmatrix}
+$$
+
+\section{section 4}
+graphic
+\end{document}
